@@ -4,13 +4,13 @@
 
 ## 使い方
 
-`$ sitemap (ドキュメントルート) (前バージョンのドキュメントルート) (html ファイル)...`
+`$ sitemap (ドメイン) (ドキュメントルート) (前バージョンのドキュメントルート) (html ファイル)...`
 
 (例) 現在の Web サイトのドキュメントルートを html/、１つ前のバージョンのドキュメントルートを old/ とします。
 html/ ディレクトリ下に index.html, articles/section.html, 404.html があるとき、
 index.html と articles/section.html を含む sitemap.xml を作成する場合は
 
-`$ sitemap html/ old/ index.html articles/section.html`
+`$ sitemap https://example.com html/ old/ index.html articles/section.html`
 
 とします。
 
